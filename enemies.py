@@ -14,3 +14,8 @@ if x == 'yes':
         direction2 = input('which way do you want to go, left right or forward?')
         if direction2 == 'left':
             print('you encounter a monster!')
+        if direction2 == 'right':
+            print('you bump into a wall. ouch!')
+        if direction2 == 'forward':
+            print('you move forward.')
+            direction2 = input
