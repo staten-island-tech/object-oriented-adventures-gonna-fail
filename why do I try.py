@@ -2,16 +2,21 @@ print('ON NO THERE IS A MONSTER')
 
 import random
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(random.choice(numbers))
+
 
 class person():
-    def __init__(info):
+    self.value1 = 1
+    info.value2 = 2
+    def __init__(info, damage, health):
         info.damage = damage
         info.health = health
 
     def attack(self):
-        x = self.health - self.damage
+        x = 20 - (random.choice(numbers)) 
         return x
+
+replaced_text = x
+print(replaced_text)
 
 def encounter_one(char):
     print(f"You have encountered {char.name}")
@@ -24,5 +29,5 @@ class monster():
         return f"{self.name}, {self.age}, {self.artist}"
      
 
-healt = 10
+health = 10
 damag = random.choice
