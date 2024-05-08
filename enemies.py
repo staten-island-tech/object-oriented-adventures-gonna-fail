@@ -1,6 +1,4 @@
 x = input("you wake up in the middle of the night, thirsty. do you want to get a glass of water?")
-
-
 if x == 'yes':
     direction = input('you get out of bed and open your door. forward left or right?')
     if direction == 'left':
@@ -31,8 +29,19 @@ if x == 'yes':
                 print('you move forward and approach the staircase. carefully you walk down stairs, so you dont trip and fall')
                 direction4 = input('which way do you want to go, forward left or right?')
                 if direction4 == 'left':
-                    print('you move left')
+                    print('you move left and encounter a monster')
+                    direction4 = input('forward left or right?')
                 if direction4 == 'forward':
-                    print('you move forward')  
+                    print('you move forward and encounter a monster') 
+                    direction4 = input('forward left or right') 
                 if direction4 == 'right':
                     print('you move right')   
+                    direction5 = input('which way do you want to go, foward left or right?')
+                    if direction5 == 'forward':
+                        print('you move forward')
+                    if direction5 == 'left':
+                        print('you move left')
+                    if direction5 == 'right':
+                        print('you move right')
+if x == 'no':
+    print('goodbye')
