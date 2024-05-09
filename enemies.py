@@ -38,7 +38,7 @@ if x == 'yes':
                     print('you move right')   
                     direction5 = input('which way do you want to go, foward left or right?')
                     if direction5 == 'forward':
-                        print('you move forward')
+                        print('you move forward and encounter a monster')
                     if direction5 == 'left':
                         print('you move left')
                     if direction5 == 'right':
