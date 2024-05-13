@@ -54,5 +54,23 @@ if x == 'yes':
                             direction6 = input('forward left or right?')
                         if direction6 == 'forward':
                             print('you move forward')
+                            direction7 = input('which way do you want go, forward left or right?')
+                            if direction7 == 'left':
+                                print('you move left and encounter a bottle of virgin olive oil')
+                                direction7 == input('forward left or right?')
+                            if direction7 == 'forward':
+                                print('you move forward and bump into a wall. ouch! try going in a different direction')
+                                direction7 == input('forward left or right?')
+                            if direction7 == 'right':
+                                print('you move right')
+                                direction8 = input('which way do you want to go, forward left or right?')
+                                if direction8 == 'right':
+                                    print('you move right and encounter a monster')
+                                    direction8 = input('forward left or right?')
+                                if direction8 == 'forward':
+                                    print('you move forward and walk up to your houses front door. i dont think thats the way to the kitchen')
+                                    direction8 = input('forward left or right?')
+                                if direction8 == 'left':   
+                                    print('e')
 if x == 'no':
     print('goodbye')
