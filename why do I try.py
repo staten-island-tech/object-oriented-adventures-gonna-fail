@@ -11,6 +11,13 @@ class person():
     def __init__(self, damage, health):
         self.damage = damage
         self.health = health
+    damage = random
+    health = 20
+    
+def attack():
+        x = health - damage
+        return x
+    
 
 class monster():
 
