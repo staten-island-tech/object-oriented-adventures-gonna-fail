@@ -4,26 +4,40 @@ import random
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-def encounter_one(char):
-    print(f"You have encountered {char.name}")
+
 
 class person():
-    def __init__(self, damage, health):
-        self.damage = damage
+    def __init__(self, health):
         self.health = health
-    damage = random
-    health = 20
-    
-def attack():
-        x = health - damage
-        return x
+        self.damage = random.choice(numbers)
+
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    def display(self):
+        print(f"Name: (self.name)")
+        print(f"Name: (self.age)")
+        print(f"Name: (self.gender)")
+
+    def create():
+        name = input("enter your characters name")
+        age = int(input("enter characters age"))
+        gender = int(input("enter characters gender"))
+        return person(name, age, gender)
+
+
+    def __str__(self):
+        
+        print(f'my attack power is {self.health - self.damage}')
     
 
 class monster():
 
-    def attack(self, monster):
-        monster.healt = monster.health - 5
-        print (monster.health)
+    def attack(self, user):
+        user.health = user.health - 5
+        print (user.health)
 
 
 
@@ -32,4 +46,5 @@ class monster():
         return f"{self.name}, {self.age}, {self.artist}"
 
 
-Whalen = monster.healt = 10
+Whalen = person(20)
+Whalen.__str__()
