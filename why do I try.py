@@ -17,15 +17,18 @@ class person():
         self.gender = gender
 
     def display(self):
-        print(f"Name: (self.name)")
-        print(f"Name: (self.age)")
-        print(f"Name: (self.gender)")
+        print(f"Name: {self.name}")
+        print(f"Name: {self.age}")
+        print(f"Name: {self.gender}")
 
     def create():
         name = input("enter your characters name")
         age = int(input("enter characters age"))
-        gender = int(input("enter characters gender"))
+        gender = (input("enter characters gender"))
         return person(name, age, gender)
+    
+    User = create()
+    print(User.display())
 
 
     def __str__(self):
@@ -44,7 +47,3 @@ class monster():
 
     def __str__(self):
         return f"{self.name}, {self.age}, {self.artist}"
-
-
-Whalen = person(20)
-Whalen.__str__()
