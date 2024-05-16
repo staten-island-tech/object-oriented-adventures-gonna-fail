@@ -77,14 +77,15 @@ if x == 'yes':
                                         print('you move left and encounter a monster')
                                         direction9 = input('forward left or right?')
                                     if direction9 == 'right':
-                                        print('you move right and walk up to your houses front door. i dont think thats the way to the kitchen')
+                                        print('you move right and walk up to your houses front door. i dont think thats the way back to your room')
                                         direction9 = input('forward left or right?')
                                     if direction9 == 'forward':
                                         print('you move forward')
                                         direction10 = input('which way do you want to go, forward left or right?')
-                                        if direction == 'right':
+                                        if direction10 == 'right':
                                             print('you move right and encounter a monster')
-                                        if direction == 'forward':
+                                            direction10 = input('forward left or right?')
+                                        if direction10 == 'forward':
                                             print('you move forward')
                                         if direction10 == 'left':
                                             print('you move left')
