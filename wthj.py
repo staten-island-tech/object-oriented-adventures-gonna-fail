@@ -1,7 +1,4 @@
 class person():
-    def __init__(self, health):
-        self.health = health
-        self.damage = random.choice(numbers)
 
     def __init__(self, name, age, gender):
         self.name = name
@@ -10,8 +7,8 @@ class person():
 
     def display(self):
         print(f"Name: {self.name}")
-        print(f"Name: {self.age}")
-        print(f"Name: {self.gender}")
+        print(f"Age: {self.age}")
+        print(f"Gender: {self.gender}")
 
     def create():
         name = input("enter your characters name")
@@ -19,5 +16,11 @@ class person():
         gender = (input("enter characters gender"))
         return person(name, age, gender)
     
-    User = create()
-    print(User.display())
+user = person.create()
+print(user.display())
+
+class monster():
+    def attack(self, user):
+        user.health = 10 - 5
+        print (10)
+

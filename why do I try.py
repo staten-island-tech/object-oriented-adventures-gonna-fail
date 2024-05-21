@@ -15,11 +15,11 @@ class person():
         self.name = name
         self.age = age
         self.gender = gender
-
+ 
     def display(self):
         print(f"Name: {self.name}")
-        print(f"Name: {self.age}")
-        print(f"Name: {self.gender}")
+        print(f"Age: {self.age}")
+        print(f"Gender: {self.gender}")
 
     def create():
         name = input("enter your characters name")
@@ -27,20 +27,23 @@ class person():
         gender = (input("enter characters gender"))
         return person(name, age, gender)
     
-    User = create()
-    print(User.display())
+   
 
 
     def __str__(self):
         
         print(f'my attack power is {self.health - self.damage}')
     
+user = person.create()
+print(user.display())
+
 
 class monster():
 
     def attack(self, user):
-        user.health = user.health - 5
+        user.health = 10 - 5
         print (user.health)
+        
 
 
 
