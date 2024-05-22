@@ -114,13 +114,14 @@ if x == 'yes':
                                                         direction13 = input('forward left or right?')
                                                     if direction13 == 'right':
                                                         print('you move right')
+                                                        print('you walk up the staircase, careful not to fall.')
                                                         direction14 = input('which way do you want to go, forward left or right?')
                                                         if direction14 == 'left':
-                                                            print('e')
+                                                            print('you move left and bump into a wall. ouch! try going in a different direction next time')
                                                         if direction14 == 'right':
-                                                            print('e')
+                                                            print('you move right. thats the bathroom, try going in a different direction.')
                                                         if direction14 == 'forward':
-                                                            print('e')
-                                                
+                                                            print('you move forward')
+                                                        direction15 = input('which way do you want to go, forward left or right?')
 if x == 'no':
     print('goodbye')
