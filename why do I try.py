@@ -37,12 +37,11 @@ class person():
 user = person.create()
 print(user.display())
 
-
 class monster():
 
     def attack(self, user):
         user.health = 10 - 5
-        print (user.health)
+        print ("user.health")
         
 
 
