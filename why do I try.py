@@ -39,9 +39,10 @@ print(user.display())
 
 class monster():
 
-    def attack(self, user):
-        user.health = 10 - 5
-        print ("user.health")
+health = 20
+damage = (random.choice(x))
+age = (health - damage)
+print("Your health is: "+str(age))
         
 
 
