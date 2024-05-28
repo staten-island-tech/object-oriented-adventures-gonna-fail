@@ -1,15 +1,17 @@
 print('ON NO THERE IS A MONSTER')
 
 import random
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 class person():
     def __init__(self, health):
         self.health = health
-        self.damage = random.choice(numbers)
+        self.damage = random.choice(x)
+        health = 20
+        damage = (random.choice(x))
+        age = (health - damage)
+        print("Your health is: "+str(age))
 
     def __init__(self, name, age, gender):
         self.name = name
@@ -26,8 +28,10 @@ class person():
         age = int(input("enter characters age"))
         gender = (input("enter characters gender"))
         return person(name, age, gender)
+    def battle(self, monster):
+        monster.age = monster.health - self.damage
+        print(monster.age)
     
-   
 
 
     def __str__(self):
@@ -37,16 +41,3 @@ class person():
 user = person.create()
 print(user.display())
 
-class monster():
-
-health = 20
-damage = (random.choice(x))
-age = (health - damage)
-print("Your health is: "+str(age))
-        
-
-
-
-
-    def __str__(self):
-        return f"{self.name}, {self.age}, {self.artist}"
