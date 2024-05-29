@@ -1,13 +1,22 @@
+import random 
+y =['you bump into a wall. ouch! try going the other way', 'OH NO A MONSTER',':>']             
+
 class direction():
-    def left():
-        print('you move left')
-        print(random.choice)
+    def direction(self):
+        direction = input('which way do you want to go, forward, left or right?')
+        if direction == 'right':
+            self.right()
+        if direction == 'left':
+            self.left
+        if direction == 'forward':
+            self.forward
     def right():
         print('you move right')
         print(random.choice)
     def forward():
         print('you move forward')
         print(random.choice)
-
-import random 
-x =['you bump into a wall. ouch! try going the other way', 'OH NO A MONSTER',':>']
+    def left():
+        print('you move left')
+        print(random.choice)
+forward()
