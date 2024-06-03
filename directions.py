@@ -5,19 +5,15 @@ class directions():
     def direction(self):
         direction = input('which way do you want to go, forward, left or right?')
         if direction == 'right':
-            self.right()
+            print('you move right')
+            print(random.choice(y))
         if direction == 'left':
-            self.left
+            print('you move left')
+            print(random.choice(y))
         if direction == 'forward':
-            self.forward
-    def right():
-        print('you move right')
-        print(random.choice(y))
-    def forward():
-        print('you move forward')
-        print(random.choice(y))
-    def left():
-        print('you move left')
-        print(random.choice(y))
+            print('you move forward')
+            print(random.choice(y))
 
-directions.forward()
+
+x = directions()
+x.direction()
