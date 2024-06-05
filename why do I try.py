@@ -6,8 +6,7 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 class person():
 
-    def __init__(self, health, name, age, gender):
-        self.health = health
+    def __init__(self, name, age, gender):
         self.damage = random.choice(x)
         self.name = name
         self.age = age
@@ -23,19 +22,20 @@ class person():
         age = int(input("enter characters age"))
         gender = (input("enter characters gender"))
         return person(name, age, gender)
+        
 
 user = person.create()
 print(user.display())
-    
+
 def battle(self, monster):
+    self.health = health
     monster.health = monster.health - self.damage
     print(monster.health)
-    health = 5
-    monster = 6
-def add(y):
+    health = 20
+    monster = random.choice()
     y = health - monster
     print(y)
-    add(monster)
+    battle(monster)
 
     
 
