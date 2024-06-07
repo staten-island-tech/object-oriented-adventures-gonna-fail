@@ -5,7 +5,7 @@ class directions():
     def direction(self, y):
         direction = input('which way do you want to go, forward, left or right?')
         print(f'you moved {direction}')
-        print(random.choice(y))
+        return(random.choice(y))
 
 
 x = directions()
