@@ -25,4 +25,4 @@ if x == 'yes':
     print('you get out of bed and open your door.')
     directions.direction()
     directions.direction()
-
+ 
