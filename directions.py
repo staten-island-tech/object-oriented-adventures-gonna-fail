@@ -44,7 +44,7 @@ class directions():
     def direction(self, y):
         direction = input('which way do you want to go, forward, left or right?')
         print(f'you moved {direction}')
-        printh(random.choice(y))
+        print(random.choice(y))
 
 
 x = directions()
@@ -82,3 +82,5 @@ if a == 'yes':
     print('you take a sip of water, set it aside and then go back to sleep')
 if a == 'no':
     print('goodbye')
+elif:
+    print('retry')
