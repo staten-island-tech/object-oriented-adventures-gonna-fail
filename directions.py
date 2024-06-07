@@ -44,11 +44,7 @@ class directions():
     def direction(self, e):
         direction = input('which way do you want to go, forward, left or right?')
         print(f'you moved {direction}')
-<<<<<<< HEAD
         print(random.choice(e))
-=======
-        print(random.choice(y))
->>>>>>> f4fbc4e9a2bdf9408e08a3787fc9d84c3eeaa515
 
 
 x = directions()
