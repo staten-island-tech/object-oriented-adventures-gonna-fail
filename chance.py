@@ -5,3 +5,4 @@ health = 20
 damage = (random.choice(x))
 age = (health - damage)
 print("Your health is: "+str(age))
+
