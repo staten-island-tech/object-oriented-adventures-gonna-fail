@@ -1,4 +1,4 @@
-
+answer = str(('Run again? (y/n): '))
 
 import random
 x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -82,5 +82,3 @@ if a == 'yes':
     print('you take a sip of water, set it aside and then go back to sleep')
 if a == 'no':
     print('goodbye')
-elif:
-    print('retry')
