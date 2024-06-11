@@ -33,9 +33,6 @@ def battle(self, monster):
     print(monster.health)
     health = 20
     monster = random.choice()
-    y = health - monster
-    print(y)
-    battle(monster)
 
 import random 
 e =['you bump into a wall. ouch! try going the other way', 'OH NO A MONSTER',':>']             
