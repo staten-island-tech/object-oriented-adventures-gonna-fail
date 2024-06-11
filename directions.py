@@ -43,7 +43,7 @@ class directions():
         print(random.choice(e))
 
 x = directions()
-a = input("you wake up in the middle of the night, thirsty. do you want to get a glass of water?")
+a = input("you wake up in the middle of the night, thirsty. do you want to get a glass of water?(yes or no)")
 if a == 'yes':
     print('you get out of bed and open your door.')
     monster = x.direction(e)
@@ -77,3 +77,5 @@ if a == 'yes':
     print('you take a sip of water, set it aside and then go back to sleep')
 if a == 'no':
     print('goodbye')
+else:
+    input("you wake up in the middle of the night, thirsty. do you want to get a glass of water?(yes or no)")
